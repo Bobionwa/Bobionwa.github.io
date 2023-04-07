@@ -1,2 +1,3 @@
 products = int(input("Ingrese la cantidad de Productos: "))
-answer = print("Total: ", products * 325)
+answer = products * 325;
+total = input("Total mas IVA: ", answer* .16)
