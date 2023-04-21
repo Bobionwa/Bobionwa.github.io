@@ -1,6 +1,7 @@
 products = int(input("Ingrese la cantidad de Productos: "))
-int answer
+answer = 0
+cantidad = 1
 for cantidad in range(products):
-    cant = int(input("Costo Producto ", cantidad))
+    cant = int(input(f"Costo Producto {cantidad}: "))
     answer += cant
-total = input("Total mas IVA: ", answer* .16)
+print("Total mas IVA: ", answer* .16 + answer)
