@@ -1,3 +1,6 @@
 products = int(input("Ingrese la cantidad de Productos: "))
-answer = products * 325;
+int answer
+for cantidad in range(products):
+    cant = int(input("Costo Producto ", cantidad))
+    answer += cant
 total = input("Total mas IVA: ", answer* .16)
