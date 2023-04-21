@@ -1,6 +1,5 @@
 products = int(input("Ingrese la cantidad de Productos: "))
-answer = 0
-cantidad = 1
+answer, cantidad = 1, = 0
 for cantidad in range(products):
     cant = int(input(f"Costo Producto {cantidad}: "))
     answer += cant
